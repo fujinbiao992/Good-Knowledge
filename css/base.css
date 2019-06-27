@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+}
+input {
+	border: 0;
+	outline: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	/* font-size: 18px; */
+	font-weight: 400;
+}
+
+em, i {
+	font-style: normal;
+}
+body {
+	font:14px arial, 'microsoft yahei';
+	color: #676767;
+}
+a {
+	color: #676667;
+}
+.w {
+	width: 1140px;
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	*zoom:1;
+}
+.f12 {
+	font-size: 12px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f16 {
+	font-size: 16px;
+}
+.f18 {
+	font-size: 18px;
+}
+.f20 {
+	font-size: 20px;
+}
+.f24 {
+	font-size: 24px;
+}
+.f26 {
+	font-size: 26px;
+}
+.tac {
+	text-align: center;
+}
+.line-l {
+    left: 0;
+}
+.line-r {
+    right: 0;
+}
+.line-l, .line-r {
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: #efefef;
+}
+.strange {
+	box-sizing: border-box;
+}
